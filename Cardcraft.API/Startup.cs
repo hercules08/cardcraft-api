@@ -33,6 +33,7 @@ namespace Cardcraft.API
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
             await app.UseOcelot();
         }
     }
