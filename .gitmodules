@@ -1,9 +1,9 @@
 [submodule "Microservice.Account"]
 	path = Microservice.Account
-	url = https://github.com/hercules08/cardcraft-api-microservice-account
+	url = https://github.com/hercules08/cardcraft-api-account-microservice
 [submodule "Microservice.Product"]
 	path = Microservice.Product
-	url = https://github.com/hercules08/cardcraft-api-microservice-product
+	url = https://github.com/hercules08/cardcraft-api-product-microservice
 [submodule "Microservice.Payment"]
 	path = Microservice.Payment
-	url = https://github.com/hercules08/cardcraft-api-microservice-payment
+	url = https://github.com/hercules08/cardcraft-api-payment-microservice
