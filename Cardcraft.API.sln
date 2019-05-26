@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cardcraft.API", "Cardcraft.API\Cardcraft.API.csproj", "{184B5208-63B5-41FD-A76A-ED962B49A8C2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardcraft.Microservice.Account", "Microservice.Account\Cardcraft.Microservice.Account\Cardcraft.Microservice.Account.csproj", "{5A24C512-B942-49D1-9BD1-FEE7CCB96EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardcraft.API", "Cardcraft.API\Cardcraft.API.csproj", "{184B5208-63B5-41FD-A76A-ED962B49A8C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardcraft.Microservice.Product", "Microservice.Product\Cardcraft.Microservice.Product\Cardcraft.Microservice.Product.csproj", "{9A5659BA-204B-4AA1-91AA-2572185A0515}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardcraft.Microservice.Payment", "Microservice.Payment\Cardcraft.Microservice.Payment\Cardcraft.Microservice.Payment.csproj", "{6990AEFB-785F-408E-B574-6AF98B5793A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cardcraft.Microservice.Account", "Microservice.Account\Cardcraft.Microservice.Account\Cardcraft.Microservice.Account.csproj", "{DF3B663A-F46C-4ADA-9941-C3F102CBD50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{184B5208-63B5-41FD-A76A-ED962B49A8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{184B5208-63B5-41FD-A76A-ED962B49A8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{184B5208-63B5-41FD-A76A-ED962B49A8C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A24C512-B942-49D1-9BD1-FEE7CCB96EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A24C512-B942-49D1-9BD1-FEE7CCB96EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A24C512-B942-49D1-9BD1-FEE7CCB96EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A24C512-B942-49D1-9BD1-FEE7CCB96EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A5659BA-204B-4AA1-91AA-2572185A0515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A5659BA-204B-4AA1-91AA-2572185A0515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5659BA-204B-4AA1-91AA-2572185A0515}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6990AEFB-785F-408E-B574-6AF98B5793A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6990AEFB-785F-408E-B574-6AF98B5793A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6990AEFB-785F-408E-B574-6AF98B5793A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3B663A-F46C-4ADA-9941-C3F102CBD50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3B663A-F46C-4ADA-9941-C3F102CBD50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3B663A-F46C-4ADA-9941-C3F102CBD50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3B663A-F46C-4ADA-9941-C3F102CBD50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
