@@ -5,6 +5,11 @@ jobs:
     docker:
       - image: microsoft/dotnet:2.2-sdk
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "${CARDCRAFT_ACCOUNT_FINGERPRINT}"
+            - "${CARDCRAFT_PRODUCT_FINGERPRINT}"
+            - "${CARDCRAFT_PAYMENT_FINGERPRINT}"
       - checkout
       - run:
           name: "Pull Submodules"
