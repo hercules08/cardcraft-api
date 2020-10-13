@@ -7,3 +7,6 @@
 [submodule "Microservice.Payment"]
 	path = Microservice.Payment
 	url = https://github.com/hercules08/cardcraft-api-payment-microservice
+[submodule "Microservice.Messaging"]
+	path = Microservice.Messaging
+	url = ./Microservice.Messaging/
