@@ -17,6 +17,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    //"Docker": {
+    //  "commandName": "Docker",
+    //  "launchBrowser": true,
+    //  "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values",
+    //  "httpPort": 5000,
+    //  "sslPort": 5000
+    //}
     "Cardcraft.API": {
       "commandName": "Project",
       "launchBrowser": true,
@@ -25,11 +32,6 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5000"
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values"
     }
   }
 }
